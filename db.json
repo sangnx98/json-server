@@ -2,39 +2,158 @@
   "users": [
     {
       "id": 1,
-      "first_name": "Robert",
-      "last_name": "Schwartz",
-      "email": "rob23@gmail.com"
+      "name": "Robert",
+      "password": "sang1234",
+      "email": "rob23@gmail.com",
+      "role": "1"
     },
     {
       "id": 2,
-      "first_name": "Lucy",
-      "last_name": "Ballmer",
-      "email": "lucyb56@gmail.com"
+      "name": "Lucy",
+      "password": "sangnx1998",
+      "email": "sangnx1998@gmail.com"
+    },
+    {
+      "email": "cdb@gmail.com",
+      "password": "sang12",
+      "confirmPassword": "sang12",
+      "name": "Tien Dang",
+      "id": 3
+    },
+    {
+      "email": "sphp9x@gmail.com",
+      "password": "sang12",
+      "confirmPassword": "sang12",
+      "name": "Sang Nguyen",
+      "id": 4
+    },
+    {
+      "email": "sangnxhl34@gmail.com",
+      "password": "sang12",
+      "confirmPassword": "sang12",
+      "name": "Sang Nguyen",
+      "id": 5
+    },
+    {
+      "email": "sangnxhl34@gmail.com",
+      "password": "sang12",
+      "confirmPassword": "sang12",
+      "name": "Sang Nguyen",
+      "id": 6
+    },
+    {
+      "email": "sangnx1998@gmail.com",
+      "password": "sang12",
+      "confirmPassword": "sang12",
+      "name": "Sang Nguyen",
+      "id": 7
+    },
+    {
+      "email": "sangnxhl34@gmail.com",
+      "password": "sang12",
+      "confirmPassword": "sang12",
+      "name": "Sang 12",
+      "id": 8
+    },
+    {
+      "googleId": "111318184411060464693",
+      "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GjJ8LLENSp12Nx-WAdip9AmBBGyzVWH_grHW1Tl=s96-c",
+      "email": "sangnx@rikkeisoft.com",
+      "name": "Nguyễn Xuân Sang",
+      "givenName": "Nguyễn Xuân",
+      "familyName": "Sang",
+      "id": 9
+    },
+    {
+      "googleId": "111318184411060464693",
+      "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GjJ8LLENSp12Nx-WAdip9AmBBGyzVWH_grHW1Tl=s96-c",
+      "email": "sangnx@rikkeisoft.com",
+      "name": "Nguyễn Xuân Sang",
+      "givenName": "Nguyễn Xuân",
+      "familyName": "Sang",
+      "id": 10
+    },
+    {
+      "googleId": "111318184411060464693",
+      "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GjJ8LLENSp12Nx-WAdip9AmBBGyzVWH_grHW1Tl=s96-c",
+      "email": "sangnx@rikkeisoft.com",
+      "name": "Nguyễn Xuân Sang",
+      "givenName": "Nguyễn Xuân",
+      "familyName": "Sang",
+      "id": 11
+    },
+    {
+      "googleId": "111318184411060464693",
+      "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GjJ8LLENSp12Nx-WAdip9AmBBGyzVWH_grHW1Tl=s96-c",
+      "email": "sangnx@rikkeisoft.com",
+      "name": "Nguyễn Xuân Sang",
+      "givenName": "Nguyễn Xuân",
+      "familyName": "Sang",
+      "id": 12
+    }
+  ],
+  "rooms": [
+    {
+      "id": 2
     },
     {
       "id": 3,
-      "first_name": "Anna",
-      "last_name": "Smith",
-      "email": "annasmith23@gmail.com"
-    },
-    {
-      "id": 4,
-      "first_name": "Robert",
-      "last_name": "Brown",
-      "email": "bobbrown432@yahoo.com"
-    },
-    {
-      "id": 5,
-      "first_name": "Roger",
-      "last_name": "Bacon",
-      "email": "rogerbacon12@yahoo.com"
+      "hostId": 1,
+      "room_type": "Studio",
+      "room_name": "The Galaxy Home",
+      "address": "Cầu Giấy, Hà Nội",
+      "square": "55m2",
+      "bed_rooms": "1",
+      "bath_rooms": "2",
+      "beds": 2,
+      "price": "820000",
+      "guestNums": 3,
+      "status": false,
+      "is_checked": true,
+      "intro": "1 Phòng Ngủ, 60m2, View Thành Phố, Ban Công - Dịch Vọng"
     }
   ],
-  "hosts": [
-    { "id": 1 }
+  "host": [
+    {
+      "email": "sphp9x@gmail.com",
+      "password": "sang12",
+      "confirmPassword": "sang12",
+      "name": "Sang Nguyen",
+      "id": 1
+    }
   ],
-  "bookings": [
-    
+  "booking": [
+    {
+      "id": 1,
+      "hosts_id": 1,
+      "users_id": 1,
+      "rooms_id": 1,
+      "startDate": "28/03/2022",
+      "endDate": "30/03/2022",
+      "status": true,
+      "guest_nums": 5,
+      "children": 2,
+      "adult": 3
+    },
+    {
+      "dateStart": "2022-03-29T17:00:00.000Z",
+      "endDate": "2022-04-13T17:00:00.000Z",
+      "hostId": 1,
+      "status": true,
+      "total_guests": 12,
+      "children": 6,
+      "adult": 6,
+      "id": 2
+    },
+    {
+      "dateStart": "2022-03-30T17:00:00.000Z",
+      "endDate": "2022-04-19T17:00:00.000Z",
+      "hostId": 1,
+      "status": true,
+      "total_guests": 6,
+      "children": 3,
+      "adult": 3,
+      "id": 3
+    }
   ]
 }

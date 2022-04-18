@@ -25,8 +25,10 @@
     {
       "id": 7,
       "name": "Nguyễn Xuân Sang",
+      "password": "sang12",
       "email": "sangnx1998@gmail.com",
-      "password": "sang12"
+      "address": "Hà Nội",
+      "phoneNumber": "0359873499"
     },
     {
       "googleId": "111318184411060464693",
@@ -130,7 +132,7 @@
       "kitchens": "3",
       "price": "700000",
       "guestNums": "22",
-      "status": 2,
+      "status": 0,
       "isChecked": 1,
       "intro": "The Bloom Hà Nội",
       "bgUrl": "https://pix8.agoda.net/hotelImages/10543246/127078593/36a2b4e3cc7a06c24d57289bec3bb7c6.jpg?ca=19&ce=1&s=1024x768",
@@ -152,7 +154,7 @@
       "price": "750000",
       "guestNums": "6",
       "status": 0,
-      "isChecked": 1,
+      "isChecked": 2,
       "intro": "Deawoo San",
       "bgUrl": "https://pix8.agoda.net/hotelImages/109/10960/10960_16091311570046385872.jpg?ca=11&ce=1&s=1024x768",
       "id": 7
@@ -194,7 +196,7 @@
       "bedNums": "6",
       "price": "1200000",
       "guestNums": "10",
-      "status": 2,
+      "status": 0,
       "isChecked": 1,
       "intro": "Welcome to NAGARI",
       "bgUrl": "https://pix8.agoda.net/hotelImages/12185674/-1/a4116ca921a0b59efe73ed391643adab.jpg?ca=18&ce=1&s=1024x768"
@@ -238,7 +240,7 @@
       "price": "750000",
       "guestNums": "8",
       "status": 2,
-      "isChecked": 1,
+      "isChecked": 2,
       "intro": "Chuyên gia bán tháo chứng khoán",
       "bgUrl": "https://homehome.vn/wp-content/uploads/70e503ac2b40cb1e9251.jpg"
     },
@@ -255,13 +257,59 @@
       "bedNums": "4",
       "bathRooms": "4",
       "kitchens": "1",
-      "price": "800.000",
+      "price": "800000",
       "guestNums": "10",
       "status": 2,
       "isChecked": 1,
       "intro": "Nơi sang chảnh",
       "bgUrl": "https://static1.cafeland.vn/cafelandnew/hinh-anh/2021/09/20/175/201503925_119546327026226_7523663231740392221_n.jpg",
       "id": 12
+    },
+    {
+      "hostId": 4,
+      "homeStayType": "Biệt Thự",
+      "homeStayName": "Rever side",
+      "province": "Hà Nội",
+      "district": "Đông Anh",
+      "street": "Chính Trực",
+      "apartNumber": "117",
+      "square": "67",
+      "bedRooms": "2",
+      "bedNums": "4",
+      "bathRooms": "2",
+      "kitchens": "1",
+      "price": "1000000",
+      "guestNums": "8",
+      "status": 2,
+      "isChecked": 1,
+      "intro": "Hòa mình với thiên nhiên",
+      "bgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEpME4ynzS4cO4j2GRoimkryP80X3jehDMgQ&usqp=CAU",
+      "id": 13
+    },
+    {
+      "hostId": 4,
+      "homeStayType": "Duplex",
+      "homeStayName": "Cùng đi thôi",
+      "province": "Hồ Chí Minh",
+      "district": "Hà Đông",
+      "street": "Tố Hữu",
+      "apartNumber": "333",
+      "square": "89",
+      "bedRooms": "2",
+      "bedNums": "3",
+      "bathRooms": "2",
+      "kitchens": "1",
+      "price": "700000",
+      "guestNums": "6",
+      "status": 2,
+      "isChecked": 1,
+      "intro": "Abcxyz",
+      "bgUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVEhgSFRUYGRgYGBgaGBgYGBgYGBoaGBgZGRoYGRkcIS4lHB4rIRkYJjgnKy8xNTU1GiQ7QDs0QC40NTEBDAwMEA8QHhISHjQhJCs0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIANAA8gMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAECAwUGB//EAEQQAAIBAgQDBAYHBgQFBQAAAAECEQADBBIhMQVBURMiYXEGIzKSsdIzcoGRodHwFEJSc4LBFWLC4UNTY7LxB4OTs+L/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EACARAQEBAQADAQACAwAAAAAAAAABEQISITFBAxMyUXH/2gAMAwEAAhEDEQA/AMO2CQiqE9gHvIp/Egmrewfpb9xflpsL7Sfyx8aOr0ya5Wguwfpb9xflpv2d+lv3F+WjjTqKvjE1nnDv0t+4vy03Yv0t+4vy1plarYUyGgeyfpb9xflpC0/S37i/LRkU1MhoXsX6W/cX5aY2H6W/cX5aLpxVyJoLsX6W/cT5aXYP0t+4ny0bFMaeMXaCNl+lv3E+WmNl+lv3F+WjiKaKnjDQPYv0t+4ny0uxfpb9xPlo2KUVfGGgexfpb9xPlpdi/S37ifLRsU1PGGg+yfpb9xPlpuyfpb9xPlo2minjDQXZP0t+4ny0uyfpb9xPloyKVPGGg+yfpb9xPlpdk/S37ifLRdKnjDQfZP0t+4ny0uzfpb9xPloukRTxhoTs36W/cT5abs36W/cT5aLpop4w0J2b9LfuJ8tV3s6rmIt/YifLR8UNjx6s+YqWRYGxVle0buL7TfE0qnix6x/rN8TSrCtDCDvp/LHxrQigcGe+n8sVoE1vn4zUYqSrS0pZqqEaYrSLUpoIlajlqRakBQQy0+WrMtNFUVU0VaRTRUFZFNFWEU0VRCKRFSIpooIRTRUyKQWdtf8AYSaCEU0VMimqiFKKkRTRQRilUqaKCNNUopRQRikRT0qhqJobHfRnzFFULjx6s+YqX4qrF/SP9ZviaVPi/pH+s3xNKubQ3B+2n8sfGtGgsEnfT+WPjWiErXPxLFYp8tWKlSyVUVFaQWrctMRRVWWlFWUxWqyrpRU8tIighFMRU4piKohFNFO1RmoERSpUqoiRUXIG/UD7yAPjVkUFxQxb5+0vxn+1Z6uTSTbgk0op6UVoRimipUooIRTRU4pqojTVKKagjFNU6aKCNC8Q9g+YouKGx49WfMVm/CB8WPWP9ZviaVSxf0j/AFm+JpVzbauBHfT+WPjWmBWdgAM6fyxWiIqwpoFSqLDxFJR41pETS1q4LTRQVAUwFWmqneKqFFNFVnECoi7NNRaRUGp96QWggaVWFaiFoIlaaKld0Ut0g8uvjQ+LxOQKcpOYgfrx6CpepPqyWp3XCqzsYCiT/YDqTyFYuJxi3kYqGhBdYEwAciBhpruxUTOxOgpuIi9cdLSIzlUznKDkz3BmEsdFAtlQJI1z/wARp8Nwe8LJtkBWKOIlYlmGhMnQgTp5Vy668v8AjfPOCuBY1LmW0WKvllc8FXgagMACpA1ggyBvOhPZYJHMGD5iuctcFxtt7dwWT3HDBwyZe73hBLTt1FdCxIxDIEORu4jQ0KElbZPSYRSToAQTqNLz1ZkpedORUYp1dSSoIkbipRXWVzQpRUiKYiqIxTRUqUUECKaKnFNFBGhcePVnzFFxQ3EPoz5ipfgGxf0j/Wb4mlT4v6R/rN8TSrm208G/eWP+WPjR4bSgeHp3lH/THxrRW1pSfCqFM71MMopGzVi2xuTWkQ/aJ5Var1WzLyqs3PCgtuNO1UNbNSS4PEVa7g7UA3Y0hbq0GrVWgpRCKsirYpiKoqimirSKnh7YJ12AJP2cqW4mM/HNFsiJLaD8qNwNtEZQ7jtHZQBlMkc1D+zpLePeG+5o4xgMRbKMyMqkuVnXYgagbct+tXcQwge2DnUsAGUqZK+BM7jnXK326SenoOCwlvIbajSIOfKSZB06wNtK5RMbbXiTJlQIEUBcq5ZyyRrudR91YCcfcHvu8CC8NEx+8Boeuk10iWMCUJ7S3mjUhFB0iTJ6Aj9CpmfVdVcZDbCsQylEzJJC5XGwAGgiI1rm8Dh7L425bIUKqB1VSQIFwq0xM/uzPXxrm7LI13IHKgmNRp9oB/U1uvhrWHti8l1Q7rlGUlWYHvRlaQdwdevjUzE1n8f4VbsXO6FzE/uknu76zoNSNunhWSRWpxS5cuBbzqAPYBggkgTseXOf81Z0SYG/Su3OTlz691UpkSPH8CRSIqnAPKkbEEgiI/X+1ExWolVkU0VYRTRVFcUoqcU0UEIoXiA9WfMUZFC8RHqz5ipSBMX9I/1m+JpU+LHrH+s3xNNXNtrYESyfyx8a0Y0rPwN2HTQfRj41pdv4D76QqtM3nUWRjVnb9BFLtj0FaFS2G51P9nHWr5JG1UHPQObFMLFSysdxViWyKCvsasC1ZlpRRFUU0VZFIL+vLU0FRFX4DHIhzaOcywswCARz/H7B1rR4bgMM6E3nM/wbSORB58qoPD8OtwMiZdZG5UgawVmBNcu+vWN88/rU4nxB8l1lJlgAoXfIdST/AA9OXPwkbg13DC32l225caHONDHMR8f9q2caLy2CyW8iwcyrEhTvI9radtfCsfhOFw9ywTediUmVByIA2oJbmD105isS63T28XhbhIe3bMn2WCj8F3rzP0h43Y/aXXD2iltSykhozkGGOXkummuvPoO8w+EwrM6tmBUn2XnSem1eY4ewiX2AtOqEns+2WHAGwbQLmjptHOukxitvhbveM2kcAfvsMqgsQT3zM7DQT5a0djsdetKiXUAE910gE98uQCOe2m/dHKuu9EFQ2VZwYDECORzaGIPUCfCj/SLDYd8LcZxmtKhLgr+4oLSIiCNwQJ51i95cxuc+tcLiPSF76Lm1yKqgGRqRLNqSTLURwU5rhLkoTp7JJy77CDEVyfoljgLhtBdNWQmM0A+yxG5g12j41C0NlMCcrazpO33Vvb8YyfVnDvRm68u91FLnOiyGzL3iCSrd3WBGp1PTWjFpluFYgj2h0YaMPP8AOtPC4m2QmW7kKyQWSFRmEsFCEyoMxKmN95rIwXAw+a4b8EFoCrrM7meR3+2rOsqWekYpqpx9zsYl0adlHtEaAny3++p2LhYSVjbmDOm4rc6jHikaapxTRV1MRoTiI9WfMUZFCcRHqz5ilWBsUPWN9ZviaVPivpG+s3xNKsND8Dbl0H/TFan7IahwpBnTT/h/lWyErMqsxcJ1q5bAHKjSKbLV0Di2KbJRBWo5aaKstMVq2KYrV0UkUxFWkU2WmpihiACSYA3J0ArpOB4BDbzk+1IO86cgBWJb0YGY6GFbUazDAg/aDWzwu6P2SAR7RMxHQxH4Vz/kvrG+J+q24Dhy9y5nZWUlSqjLroYYnrvpHmar4HZQ4lSZy21La66iAvxn7Kd8Lde45RCVYL3yYBy8+p+wGnsYJ7UsGzE6EKFC+EOzDXwisX43GzxHHOdFOUFWIbfYNyOm4H39K49MJcLP2aEhsygjRNWkDMTEA+NamGw9xnlzImVDaqoOhAA+P3RW9huzBIZyYEmNIAjnudx1pz6SuDHA8SmaEDTqcrgROsHNE78qyMZhcWgaReC6zKB1j1umYbboP6VHM16k1+wGPq3H+cKROkzoJrK4jxK2vs5wOphvxJJH2VvWcYfAmPYWgpAIuZoImdSCP8ums+FaPEb6Pgb6Q4VrbqwiH1Vg0AjeNtIrOfidrOBmBY7dxi33kGjFVXQ24GVhBUHcEbZTlArFnvW9cNwXhtmzdOQliQYzpDgDISJByx315Tr4V0z5blxUIXWBJAgfb0o1eBJIYZ130LEiDlnQCP3Rz/vRljgHrBcUurKDBIzrqpE5QN9Z5aitS+2b8F4Xh2AMJlMnmxcMTr4gj2W0Gmh0rCx3A2sXntpdARxmRmEmNAVIG8adJkVoY28EaHOdkXYKUOisQBMwZJ08aFxKXrsMoBVBqSyg7xoCZPXarN/Uufjlb/AEuYlHvOHDFVCgldByAHKZJ8/Ku8t+j1vs8iBYA0CwI220Gum/3zXN28LcF1Gew6hSDnIbTUk6g5Y21rquE4pe0AdhnyOYBBBUOwD9d9POfCs99XfTXMjjsTayOyTOUkT+udVVayAXGU3QxLvEqVIDEuq85gGJ0mOtSxO86ctkVBoANlgD7q7TrXO84HIoTiXsHzFGUJxL6M+YrTIXFfSN9ZviaVPivpG+s3xNKsK6PhS+sT+X/cVsZay+Fe2v8v8AuK2SK561USi9TUSi9T+tqkRUSKuoYqvU/rbl5U2Vep/X2ef4U5FNFNCKr1NNlSdzSimIq6I5V6/rTw8/wpmRdAD5zsKciokU0atvgSOQWLmJIy9wctwR3qdcOlsG2o0XWD3j5kH4yKFwd5z3MzEAaLJI25DkKNw/C7riVWD3ZLnLIBmABJH21jq+3Tn4M4XxC2/cCsx10bSPsJq/FOjCHByyNE030HeG/wB/KgE4Wq3lLFQ/ekKp17hIBM/bPhWzcwwa2UI7uYSBpoIPLyrFvpc9szEph7K5+yMR3STv051DhlhXzsrOuWWBXYkqdiRqRlFAXuMurBLNiypzZUNy4WJzNcXNGkCbbSSdJHWtvgmJNy2XZw7HR8oyqrgQyAHpp9886nN2tdc2T2xBbQ3X77hgQCwcayit/CRzjT8axsdwdywB22lHQ6yNgN9ya65cMO2xP+Vk/wDpSuVxtuUYjdRmH2a106uYxzNVpwF0ErZuFsp7478yI2Gw1mpvhQg9b2iH93MjbHaTl867bhCFLYQSeZJIPe2MTy0o+8Ztt+7A6bdDArPlPhjzvtwcoDnQjYmDqNxz/wB66DCcQKD23CiPaRikfX2H9taxMTdz3EzIhOYa5QG3Ea1rWrDG25WTAbQTJlF0FObLV6mQXj4dQQ9ps20QZ1/KhOHoiSHQFpHsQOnIc64/Fces28iISVd0U9pbdMqOFYNqNRldTpyYHmJ3cNqy7NncTv1HQ/3rcusX038djLaiIdes6keENtyrFbH2ixUTMTIXWPrctqGvFL9y4iXAOzfs3BzSCFUvDGZ1zL/T5GiLXo3dKzaW2VJ3VyPOe7qftNIv4FfD2GM7GeTNMx0OnXlULvCLQJZS8nczI200jyqWJ4Xdt6sjCNz3WB8RBJqm+5Fv94TO4I5xpIqz6l+AsVZRTCsSeciOVZnEh6s+Yo4ig+JD1Z8xXX8YBYoesb6zfE0qlih6xvrN8TSrC46bhI9Yv8v8q28tY3CfpF/l/lW1XLWsRK0xFTNRppiBWolasNRNXTFZFMRUzTVdMVkUxFTNMRTUwXwy9lYKWIBMKMxALFSdp1MKfurXw3GraFLLsRcuC4y85FsKWJnnDDTnB6V57xniipfwuRgQt3O+UgwAUXUDwZ9OetdBdvo1wsRGnZh9n3zMq8wOsR+70rl11vTpzPRvSXGEBLdsmcrFizEvDEiTtIYHY9Y5Vp8A4k6I1vEEAAqyOcpWJAK93npM+J8K5jEYtGdbxOUpEAxMhpOYTr7I8wTRPFfSftQYVNJWIOoIlpHXSsxusbGsRccwIZ3IkbhnMHyiNa7D0KxMWHGWIuAkyMpzKm3Tb8a80xmIHaEqWEEaECCvTef963OEcQKW2hmUkn2XKA/RxKhhO7foadeeZJjHffXV9vRlxii7ittSh3GwtopjrqDXI3nm2/1G+BrnU4ldNwHOe9vBYT5mfKtG5iz2b6DVT8KdT4cfr0bh5BYMdYBgchDyTG07VPFuqWHUfwaDpyjwrnMNxPJpLScw0gg5mnmw10qHFONlkY6mRG0Dck7E85rGe1As83F+sPjW1irhGAxWQkXOzfJl9vN2fdyxrmnbxrlbGMJuqCBqfHoa03xhzlNwwGnKQedOV6ef+mFm4lu0HQL2aIhKsXllRVRjyByIi6adwV3Y4kiMl5pyh1YKMslVy6DYbR0rD4xw0Ym4czCCApGxkc55fZrWtd9GWNqA8lUUIh2KAgKcymBJGu5015GrMnxmy27XO+iJYYjE52hrsXNAWDnO5YA6Qe/JOuwHOvaMDCqFAIGWdhB0HTnr05V5jh/Rpw/aM6KyZQiz7ecFSCSNesb7Hz7TgHGi0W7gAIEK89x48eR0Pn+FDC9LWk215gMZ18NPxH3VgcTY9mup9kcz1862PSW6GdCP4W+K/lWPxMerX6g/7q1z/kl+MUig+Jj1Z8xRxNBcTPqz5iuuuYHFD1jfWb4mnpYr6RvrN8TSrLTpuEn1ify/yraJrD4V9In8v8q2orja3hyaaaaKRFNMI1E09MTV0wxqJFImok00wxpKsmmLVBnpqY59PRK8Ga7dXIquzwCjsQXLCYOmkaa0W+FCAEC4Y5s287k6DfwrtOB4g3EfMqnJlAMGTIbeDrsKz/SHFOnsSoyAkJMSXy+MaT93jU6knxvmuNbCuxzJaP2Z2356zrR+B9HsVc9m3lHUqEH9q0OH8Rfs2cO8g7MZ2jl9poQ4DiTO7I+ZDmy5rwAkEiApfu8zqI0NZ1qTWdf9HGDSb9uYOhLHbfbzH31X/gF07G02b2YdJMdAzSabjAdbmRsmZQS+s97uZgrQZE+ftHehUxri6gkwjoMgZggXMpMa9J+2rbZEnMtXXOHXLWYOksI2K6T4DWrLdsqozg7iVzH2dJB8Yp+MXBcutlAHszLsGJAGkTG2tW4qcw8TpVZb9y9bJgggjoxn74oXEvaiJYkmDqDoATQFgux2A11JaZ8opcQw76lB/dtiDpFW6M8YoLdVgCRrEmOR3gVqLed++ts7DUEEfjFZduyQ6g6EE7jbSti1jbi21RWaC6IdCJDA/dqB9pHWuVtjpzzqeC4bdNxW7KQuo0kddQWg7CtDGcSuIsG0RprMn/ucn/zWbgxczNCvOQSA6zoX0Cxofv2O9GcMxXEm7zs4EPKkroUYBp00AJirbieOqf8AE2JDFddxER90Hf4eQNWYZwUIV7isGzA5cwB8u7zjnyo9OIO6ZnYnXLp1nnAqOGxFwjIs89kCztrmnbWOUz96XbkLzkPilchWYGADuZ3IjwqjiX0Y+p/qFSvXi0KwMjf9frem4kPV/wBP+oV25+ud+MOg+J/RnzFFzQfEvoz5itaxgPFfSN9ZviaVLFH1jfWb4mnpo6ThR9Yn8v8AKtdrlCcHw6m4sgfR/lWy2HTkv4Vz/rtdPKM83KY3KMawnID8RVXZAExHKn9d/wBnlA/a0xuUja5+fWh3H61NPCnlFzXKra5VDDx+NUsDO/xp4U8oKNyq2v8AhQRcxJjrVD4ojaPuNPGnlHc+hzZlu6bFPg1Bel1owsGJVZPm+n/aau9AL2Zb5MaFPg1W+k6+rB55kH3lqnXr0c+3L4FD2JXWZnprCSPxrCx3F7tm45ttlzyrAqjbk6jMCAZJM11VhAiFtlznXpPZCvPeNXZvk6Rn0nYjMd/CsWOnN9uixeFYvaE+1YB012FsaGeo5Vl3rcYkLmBJdNBm1loyxESN+ne610+PLdvaXKilbDSqDuiGQQvgI08K57EOTcd8qAW3w4Jyy577EMG66weoVelavxOb7o+7hSblw6wCvON1XcURj0gZhupB/HX8Jq1Lue5eZZPeQBo3hE3+6rMcIR/qt8DVYdTwzhKi2pdcxYyZdlygwIgjU7mrsfw22EbKIiIOaRtvtWlg7oGVc0Ek6SJIzHx20qjjDqcMxVpGms5v3eZkydfxqW3THnBt5rinqWPTkeXKrVtx2em91I8TIp0B7VY6n4GpFixsKSNbqGP6wB/euVrvxPbYw9g9rdAAGVA23Im9HluNaG4VjblzC2wxB9sFgAGbvfvHnufPnXQWLI/aMVI2w6H7Zu1zfo65XDW9t3+NP5LfS/xSZWnwpItkZZnx8f8AzWpwS0GAzSA2aIlpOYTPTY0NwMypnkOVaeAtKcKJAMrd0YAj2jEg/Crxbrn38Dcawaqqvoc2xgAjnWJxIeq/p/1iui4/sg6A/wBq5z0kuZMMWESEB121da7c3a5X4wKD4n9GfMVn/wCLP0T8fzqjH492tkd0a8gZ/E1vxqbBeK+kb6zfE0qAxd1u0fU+03xNKmJr0DgresX+UK2ruJVSoZgC5hQT7RgtA8YBNc5wi7FxdD9EOVX8XIe5aUYlLORw7hg5dkBAhEVZaZI3A8DWvxGy7UOpPKToOpPOre3wxt5/2ggEwC1trYJ8A8E1jcQyqCUuZ2gjN7LJpoyLBBIOupHhFNFr3gNCSPa3zddKYXA2imfAVh2eHKFRTiS2UHU2iZzLlMy89T9pqw8KwwK3Ll5lC5QHJRIy+zBIOu9TRo4jQHkYPgdjVRbU+fXwFGcSdHRblsqysoGcPmLnKRnJAynbcc6zVYzz389h/tV30uAsTfyWyxHsxoTzjYjlr+tKBfHCGLbLBOkQDz106c+dR4w4YMGbLBzExMxJMCRyB50A9u3lKukgkDv8yHIhRy9huXOuM66vUi3n26vgnHzYtOFEdsB3yAwACMNFzAkyw11pcU9I7mIuWQirBdVMsEzkFoBGuUajmdV8YrnLgLAFjJIP4qAYGukzEzyofGuxUAlfa2k6SCefn5VZvV2tZ4x3PF8c6TbU28pRGYOGLlnLSFggQOyXlzrzzirzeYexlhjpqDvzOmvWjsdxK89vO7gAIqnKTqFzKudjJ3nc/vGuVe4Zb7dAfD8axZiXrHoHoxjnvXyxAbLaMGS5MugLGOczVHpMqWrzyziXEgABCVAK6dBQn/pzeBvOraBkgkKSdWBiFU75elZ3pvxEviXAYZSQCAZ18oBB8PDyrWk69a7f0VAe25J3dcxCmIFvca9Y361dxYKttjm37u38WknXbWuH9FuPOim2AI1YsZPIKAAN9q2bnGbZlXJhhB3EaE6U+kvp3eM4/hrSJddXcI5XMjaI/tQwDgcxuK08TbsrhsiMQhVSpzM5IKgDV2J2I5/GvCrXGL9269trjC3cOd1AUZiACDAA5og0/h8ddvgnpU6W2sFJVEdA7EllEgJlWY7pHQ06khrewGOQ3iknMgJIgbbSDPjWVguNTftFioRb6QdFUgPIJYkmIiYB25Vx3+JP2vaByWgqXnkRtPMbVS2MbKNTKnTXbXNpO1c8P7K9c9LOMumOyqIW5ZCvEg5c1wLH4VnejfF7ZQWRmzITMgAkEk6CfKa5bjPGBeuJcDBctpV8mAYx3pO56/bXPYfHP2naSS2xI6+Yp1zsa5/k8fj1e1xy7ba2ttUh3hszAEgBhBHJdjI5gDnrp8K49lZlcNALqoWSBOQ5vOYHLcda8+w2KdnVneTHPUwRP2nXfxrdwqvlFwSGLFgyRtAAME67fh41fGyemvKdV1fpL6RWltJdTM4EAgQInaZrkuNekiYjDgIDGQBwR3lIcQSZiD3fGSKjiHfTurljKwygqwCue8ORmBMERHhWG+HtkkAG2XicpzW2k240n+J05jbY1dv2MdSr8JYR7DvleVO4Hd0nbquup5R94WPSLYOuv+9dTwV1FtEUkgIusGDmEyATzmftrn+LZRbYAbPAnkAYrrz1b9ZvOQPi/pH+s3xNKo4tvWP9ZviaVbZd3wew5uJC/wDD5lR06mhvSTh2IDs6LeLFI9V3ssAEEFFmdBoGjUzXOWOLOoRldZyBTmYDz0nyogekN/k9v3h81BC/w/E33e4+FxMlQE7SxclREEExHtSx12I6RWrgOHXLdtUNu5IH8BGkmFhiPZXKv9NZn+P4j+NPfH50w45e/jT3x+dBrPbxAByYe4x1gHs0BPQkvIH2Vn3sDjbjq1zClAoYAdtZcScpk98bxG2n21S3H738dv3x+dQPGLp3e2f6x81FbXC+HX7doW8o3JILpEkz+6Tz18yTRDYO4NTk8g5J/AVzw4xcH79v3wf9VRfjV0/v2/eX5qC/HWMzMO9rOw65p1/qrI9JsKVwxcqRDrESO8STJO2xb7SKPXi17+O37y/nVGPxT3kNt2QqTOjBTIkTIPifvrnOcrV6amAwiLaRnknIhgnLuo+3rvWbxK0puGAAJSI2HIwfKKgvEbqgLnQwAASyAwBHKOVVPeZpLMmv+cD+9a8U0U3o/ib1q69pM1qyO8cwGy52CKT3iFYn7a464ADHUaTrMHausTG3lR7a4jKlwQ6i6IYREGT008tNtKyG4an8Se+n66Vm82s32b0aw7XLy203dlRZYAZmMLJ6UZ6aejLYK8FcqxZc6shJWJKkQQCCCD+tqcNgwjBkdVI2IdRB85ovHu99+0vXVuNAGZ7gYwNhM7b6eNPCjK9HrWZiT1jnpP8A4itz0W9CP269iUa72PZksuZCc2ZngqJHcAUEn/MvWgFwwA07OPrx/qq1Ujbsx/Wfzqzmwc2cOQXAOqk95TzGkA9DJ86vsI6NmAJgtrEkgqRtOp1++tcYNddUkmTLjU/fUlsAf8vzzkH8HqXm0H+lXoY2BS07XUftQZVJXIQATG+de8NdPKuMutr+tIjcV0wtDqg/9w/NTdgvVP8A5P8A91PCpjm7LgrBrsfQn0NbHLdyXVt5ApOYFiS2aBAPdHdMt9wNDIoA9m0fO5P+qrEuQIHZgHcBhr+NXw36qzCplYLGoUjSCJA0gz4b11+CdOzUEGddvrHlNcdbu5fYFkR4gfBqvXiTjTNa94fnW5MXXV3LaEyC4P1ZHhrWVfwq58xWdRB1UzIKmNCSCqnppWenGro2e2P6h81WDj13+O0f6l+apeZVnTVwVoJKoCFBUKG3AEQCY1PdGtY/FsK7W2AA1br4nkamvHb22e2PJwPgajiOMXHXKXT3l/uaTnC9AsXgH7R/rN8TSq3E8Z77Q6xmMaDr5Uq0y//Z",
+      "datePicker": [
+        null,
+        null
+      ],
+      "id": 14
     }
   ],
   "host": [
@@ -336,6 +384,48 @@
       "userName": "Nguyễn Xuân Sang",
       "duration": 7,
       "id": 4
+    },
+    {
+      "dateStart": "16/04/2022",
+      "endDate": "21/04/2022",
+      "hostId": 7,
+      "total_guests": 2,
+      "children": 0,
+      "adult": 2,
+      "userId": 7,
+      "roomId": "9",
+      "roomImg": "https://pix8.agoda.net/hotelImages/12185674/-1/a4116ca921a0b59efe73ed391643adab.jpg?ca=18&ce=1&s=1024x768",
+      "roomName": "AKARI Ueno Iriya Hotel",
+      "status": 0,
+      "roomProvince": "Phú Quốc",
+      "roomDistrict": "Dương Đông",
+      "roomStreet": "Hàm Ninh",
+      "roomApartNums": "111",
+      "totalPrice": 6000000,
+      "userName": "Nguyễn Xuân Sang",
+      "duration": 5,
+      "id": 5
+    },
+    {
+      "dateStart": "20/04/2022",
+      "endDate": "23/04/2022",
+      "hostId": 5,
+      "total_guests": 4,
+      "children": 0,
+      "adult": 4,
+      "userId": 4,
+      "roomId": "6",
+      "roomImg": "https://pix8.agoda.net/hotelImages/10543246/127078593/36a2b4e3cc7a06c24d57289bec3bb7c6.jpg?ca=19&ce=1&s=1024x768",
+      "roomName": "The Bloom Hà Nội",
+      "status": 0,
+      "roomProvince": "Hà Nội",
+      "roomDistrict": "Hà Đông",
+      "roomStreet": "Trần Cung",
+      "roomApartNums": "22",
+      "totalPrice": 2100000,
+      "userName": "Sang Nguyễn",
+      "duration": 3,
+      "id": 6
     }
   ],
   "location": [
@@ -374,6 +464,5 @@
       "address": "Quảng Bình",
       "bgUrl": "https://vtv1.mediacdn.vn/thumb_w/650/2020/6/8/dulich-15916342537561871046635-crop-1591634265163746853772.jpg"
     }
-    
   ]
 }
